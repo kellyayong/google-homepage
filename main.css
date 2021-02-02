@@ -10,3 +10,12 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.apps-icon {
+  width: 40px;
+}
+
+.profile-icon {
+  width: 35px;
+  border-radius: 50%;
+}
