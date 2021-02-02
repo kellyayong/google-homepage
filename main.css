@@ -6,12 +6,26 @@ body {
   text-align: center;
 }
 
+nav {
+  margin: 15px;
+}
+
 ul {
   list-style-type: none;
 }
 
+.nav-top-left {
+  float: left;
+  margin: 6px 0 0 -30px;
+}
+
+.nav-top-right {
+  text-align: right;
+}
+
 li {
   display: inline;
+  padding: 10px;
 }
 
 a {
@@ -20,11 +34,11 @@ a {
 }
 
 .apps-icon {
-  width: 40px;
+  width: 30px;
 }
 
 .profile-icon {
-  width: 35px;
+  width: 33px;
   border-radius: 50%;
 }
 
