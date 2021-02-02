@@ -33,6 +33,10 @@ a {
   color: black;
 }
 
+p > a {
+  color: rgb(41, 15, 189);
+}
+
 .apps-icon {
   width: 30px;
 }
@@ -75,6 +79,31 @@ div {
   width: 40px;
 }
 
-button {
+.btn {
   margin: 0 4px 20px 5px;
+  font-size: 14px;
+  color: #474747;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-right: 20px;
+  background-color: #f1f1f1;
+  height: 50px;
+}
+
+.footer {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-content {
+  color: #696969;
+  font-size: 14px;
 }
