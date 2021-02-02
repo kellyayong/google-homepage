@@ -40,13 +40,25 @@ div {
   padding: 25px;
 }
 
-input {
+#searchbar {
   display: block;
-  width: 400px;
+  width: 555px;
   height: 45px;
   margin: 0 auto;
-  margin-bottom: 25px;
+  margin-bottom: -30px;
   padding: 20px;
+  border-color: #d8d8d8;
+  border-radius: 50px;
+  background-image: url("https://www.freepnglogos.com/uploads/search-png/search-icon-transparent-images-vector-16.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 18px;
+}
+
+#voice-search > img {
+  position: relative;
+  margin: -28px 0 0 495px;
+  width: 40px;
 }
 
 button {
