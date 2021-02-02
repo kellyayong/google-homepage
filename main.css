@@ -3,6 +3,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-size: 13px;
+  text-align: center;
 }
 
 ul {
@@ -25,4 +26,21 @@ a {
 .profile-icon {
   width: 35px;
   border-radius: 50%;
+}
+
+div {
+  position: relative;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+input {
+  display: block;
+  width: 400px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  padding: 20px;
 }
